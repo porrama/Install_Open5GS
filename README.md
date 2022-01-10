@@ -32,6 +32,9 @@
 ### 2. Install and Setup Ubuntu Server
 - check the **Install OpenSSH server** box
 
+Clone this project
+> git clone
+
 
 
 
