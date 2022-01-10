@@ -98,10 +98,10 @@ npm ci --no-optional
 
 ## Network Function Testing
 
-Run **runcorecontrol.sh**
+Run **runnfv.sh**
 ~~~ text
 cd ~/install_open5gs
-sudo sh runcorecontrol.sh
+sudo sh runnfv.sh
 ~~~ 
 
 ---
