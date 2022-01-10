@@ -30,14 +30,32 @@
 | Network     | Bridge Adapter |
 
 ### 2. Install and Setup Ubuntu Server
-- check the **Install OpenSSH server** box
 
 Clone this project
-> git clone
+~~~ text
+cd ~ <br>
+git clone https://github.com/porrama/install_open5gs
+~~~
 
+Run **aptinstall_open5gs.sh**
+~~~ text
+cd ~/install_open5gs <br>
+sudo sh aptinstall_open5gs.sh
+~~~
 
+### 3. Install Open5GS software
 
+Clone Open5Gs project
+~~~ text
+cd ~ <br>
+git clone https://github.com/open5gs/open5gs
+~~~
 
+Complie with **meson**
+~~~ text
+cd ~/open5gs
+meson build --prefix=`pwd`/install
+~~~
 
 
 
