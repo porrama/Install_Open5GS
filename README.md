@@ -45,13 +45,13 @@
 
 Clone this project
 ~~~ text
-cd ~ <br>
+cd ~
 git clone https://github.com/porrama/install_open5gs
 ~~~
 
 Run **aptinstall_open5gs.sh**
 ~~~ text
-cd ~/install_open5gs <br>
+cd ~/install_open5gs
 sudo sh aptinstall_open5gs.sh
 ~~~
 
@@ -59,7 +59,7 @@ sudo sh aptinstall_open5gs.sh
 
 Clone Open5Gs project
 ~~~ text
-cd ~ <br>
+cd ~
 git clone https://github.com/open5gs/open5gs
 ~~~
 
