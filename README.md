@@ -100,7 +100,7 @@ npm ci --no-optional
 
 Run **runcorecontrol.sh**
 ~~~ text
-cd ~
+cd ~/install_open5gs
 sudo sh runcorecontrol.sh
 ~~~ 
 
