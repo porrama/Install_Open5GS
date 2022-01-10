@@ -51,14 +51,32 @@ cd ~ <br>
 git clone https://github.com/open5gs/open5gs
 ~~~
 
-Complie with **meson**
+Complie with meson
 ~~~ text
 cd ~/open5gs
 meson build --prefix=`pwd`/install
 ~~~
 
+Ninja build
+~~~ text
+cd ~/open5gs
+ninja -C build
+~~~
 
+~~~ text
+cd ~/open5gs/build
+ninja install
+~~~
 
+WebUI Install (Only for Control Plane)
+~~~ text
+cd ~/open5gs
+curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+~~~
 
+~~~ text
+cd ~/open5gs/webui
+npm ci --no-optional
+~~~
 
-
+---
