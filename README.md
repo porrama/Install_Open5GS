@@ -5,6 +5,7 @@
 ## Table of Contents
 - [Software and Hardware](#id-specification)
 - [Installaion Procedure](#id-installation)
+- [Network Functions Runing](#id-networkfunction)
 
 ---
 
@@ -90,5 +91,17 @@ curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 cd ~/open5gs/webui
 npm ci --no-optional
 ~~~
+
+---
+
+<div id='id-networkfunction'/>
+
+## Network Function Testing
+
+Run **runcorecontrol.sh**
+~~~ text
+cd ~
+sudo sh runcorecontrol.sh
+~~~ 
 
 ---
