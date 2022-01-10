@@ -2,6 +2,16 @@
 
 ---
 
+## Table of Contents
+- [Software and Hardware](#id-specification)
+- [Installaion Procedure](#id-installation)
+
+---
+
+<div id='id-specification'/>
+
+## Software and Hardware
+
 ### Hardware Specification
 | Module           | Detail                                         |
 | -----------      | -----------                                    |
@@ -19,6 +29,8 @@
 | Ubuntu Server | Ubuntu Server 20.04 LTS |
 
 ---
+
+<div id='id-installation'/>
 
 ## Installation Procedure
 
