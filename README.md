@@ -57,7 +57,7 @@ sudo sh aptinstall_open5gs.sh
 
 ### 3. Install Open5GS software
 
-Clone Open5Gs project
+Clone Open5GS project
 ~~~ text
 cd ~
 git clone https://github.com/open5gs/open5gs
