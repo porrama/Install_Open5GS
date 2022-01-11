@@ -100,14 +100,14 @@ npm ci --no-optional
 
 Run **runnfv_open5gs.sh**
 ~~~ text
-cd ~/install_open5gs
-sudo sh runnfv_open5gs.sh
+cd ~/open5gs/install/bin
+sudo sh ~/install_open5gs/runnfv_open5gs.sh
 ~~~ 
 
 Run **runwebui_open5gs.sh**
 ~~~ text
-cd ~/install_open5gs
-sudo sh runwebui_open5gs.sh
+cd ~/open5gs/webui
+npm run dev
 ~~~
 
 ---
