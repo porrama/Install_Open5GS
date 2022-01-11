@@ -111,3 +111,10 @@ npm run dev
 ~~~
 
 ---
+
+<div id='id-reference'/>
+
+### Reference
+- [Open5GS Documentation](https://open5gs.org/open5gs/docs/guide/02-building-open5gs-from-sources/)
+
+---
