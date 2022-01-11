@@ -5,7 +5,7 @@
 ## Table of Contents
 - [Software and Hardware](#id-specification)
 - [Installaion Procedure](#id-installation)
-- [Network Functions Runing](#id-networkfunction)
+- [Network Functions Testing](#id-networkfunction)
 
 ---
 
@@ -81,7 +81,7 @@ cd ~/open5gs/build
 ninja install
 ~~~
 
-WebUI Install (Only for Control Plane)
+WebUI Install
 ~~~ text
 cd ~/open5gs
 curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
@@ -103,5 +103,11 @@ Run **runnfv.sh**
 cd ~/install_open5gs
 sudo sh runnfv.sh
 ~~~ 
+
+Run **runweb.sh**
+~~~ text
+cd ~/install_open5gs
+sudo sh runweb.sh
+~~~
 
 ---
