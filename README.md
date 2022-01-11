@@ -98,16 +98,16 @@ npm ci --no-optional
 
 ## Network Function Testing
 
-Run **runnfv.sh**
+Run **runnfv_open5gs.sh**
 ~~~ text
 cd ~/install_open5gs
-sudo sh runnfv.sh
+sudo sh runnfv_open5gs.sh
 ~~~ 
 
-Run **runweb.sh**
+Run **runwebui_open5gs.sh**
 ~~~ text
 cd ~/install_open5gs
-sudo sh runweb.sh
+sudo sh runwebui_open5gs.sh
 ~~~
 
 ---
