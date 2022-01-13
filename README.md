@@ -46,13 +46,13 @@
 ### 2. Install and Setup Ubuntu Server
 
 Clone this project
-~~~ text
+~~~
 cd ~
 git clone https://github.com/porrama/install_open5gs
 ~~~
 
 Run **aptinstall_open5gs.sh**
-~~~ text
+~~~
 cd ~/install_open5gs
 sudo sh aptinstall_open5gs.sh
 ~~~
@@ -60,35 +60,35 @@ sudo sh aptinstall_open5gs.sh
 ### 3. Install Open5GS software
 
 Clone Open5GS project
-~~~ text
+~~~
 cd ~
 git clone https://github.com/open5gs/open5gs
 ~~~
 
 Complie with meson
-~~~ text
+~~~
 cd ~/open5gs
 meson build --prefix=`pwd`/install
 ~~~
 
 Ninja build
-~~~ text
+~~~
 cd ~/open5gs
 ninja -C build
 ~~~
 
-~~~ text
+~~~
 cd ~/open5gs/build
 ninja install
 ~~~
 
 WebUI Install
-~~~ text
+~~~
 cd ~/open5gs
 curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 ~~~
 
-~~~ text
+~~~
 cd ~/open5gs/webui
 npm ci --no-optional
 ~~~
@@ -100,13 +100,13 @@ npm ci --no-optional
 ## Network Function Testing
 
 Run **runnfv_open5gs.sh**
-~~~ text
+~~~
 cd ~/open5gs/install/bin
 sudo sh ~/install_open5gs/runnfv_open5gs.sh
 ~~~ 
 
 Run **runwebui_open5gs.sh**
-~~~ text
+~~~
 cd ~/open5gs/webui
 npm run dev
 ~~~
